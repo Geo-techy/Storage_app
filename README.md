@@ -1,2 +1,247 @@
-# Storage_app
-A simple storage app using fastAPI and React.
+# Storage App
+
+A full-stack cloud storage application built with **React**, **FastAPI**, and **PostgreSQL**. Users can securely register, log in, upload files, manage their storage, and download or delete files using JWT authentication.
+
+---
+
+## Features
+
+* Secure user registration and login
+* Password hashing using bcrypt
+* JWT Authentication
+* Protected routes
+* User profile page
+* File upload
+* File download
+* File deletion
+* Search files
+* Storage usage indicator
+* PostgreSQL database
+* Docker support
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* React Router
+
+### Backend
+
+* FastAPI
+* SQLAlchemy
+* PostgreSQL
+* JWT Authentication
+* Passlib (bcrypt)
+
+### DevOps
+
+* Docker
+* Docker Compose
+
+---
+
+## Project Structure
+
+```text
+storage-app/
+│
+├── backend/
+│   ├── app/
+│   ├── uploads/
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   ├── .env
+│   └── .env.docker
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   ├── Dockerfile
+│   └── vite.config.ts
+│
+├── docker-compose.yml
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Login
+
+> Add screenshot here
+
+---
+
+### Dashboard
+
+> Add screenshot here
+
+---
+
+### Profile
+
+> Add screenshot here
+
+---
+
+## Running Locally
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/storage-app.git
+
+cd storage-app
+```
+
+### Backend
+
+```bash
+cd backend
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
+Backend runs at
+
+```
+http://localhost:8000
+```
+
+---
+
+### Frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Frontend runs at
+
+```
+http://localhost:8080
+```
+
+---
+
+## Running with Docker
+
+Build the project
+
+```bash
+docker compose build
+```
+
+Run
+
+```bash
+docker compose up
+```
+
+Services
+
+| Service  | URL                        |
+| -------- | -------------------------- |
+| Frontend | http://localhost:8080      |
+| Backend  | http://localhost:8000      |
+| API Docs | http://localhost:8000/docs |
+
+---
+
+## Environment Variables
+
+Create a `.env` file inside the backend directory.
+
+Example:
+
+```env
+DATABASE_URL=postgresql://postgres:password@localhost:5432/storage
+
+JWT_SECRET_KEY=your-secret-key
+```
+
+For Docker, use `.env.docker`:
+
+```env
+DATABASE_URL=postgresql://postgres:password@postgres:5432/storage
+
+JWT_SECRET_KEY=your-secret-key
+```
+
+---
+
+## REST API
+
+### Authentication
+
+| Method | Endpoint    |
+| ------ | ----------- |
+| POST   | `/register` |
+| POST   | `/login`    |
+| GET    | `/me`       |
+
+---
+
+### Files
+
+| Method | Endpoint         |
+| ------ | ---------------- |
+| POST   | `/upload`        |
+| GET    | `/files`         |
+| GET    | `/download/{id}` |
+| DELETE | `/files/{id}`    |
+
+---
+
+### Storage
+
+| Method | Endpoint   |
+| ------ | ---------- |
+| GET    | `/storage` |
+
+---
+
+## Future Improvements
+
+* Folder support
+* File renaming
+* Drag & Drop upload
+* Upload progress bar
+* File sharing
+* Trash / Recycle Bin
+* AWS S3 storage
+* Dark mode
+* User profile picture
+* Storage analytics
+
+---
+
+## Author
+
+**Geo Joyson**
+
+GitHub: https://github.com/YOUR_USERNAME
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
