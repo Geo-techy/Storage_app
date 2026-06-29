@@ -75,24 +75,24 @@ storage-app/
 
 ### Register
 
-
-
+<img width="1116" height="1147" alt="image" src="https://github.com/user-attachments/assets/a6fc8928-a76f-44b8-92f8-6dc537c76034" />
 
 ---
 ### Login
 
 <img width="559" height="569" alt="image" src="https://github.com/user-attachments/assets/455311d6-1726-41d9-9c86-452735c8c76c" />
 
-
 ---
 
 ### Dashboard
 
+<img width="1116" height="1144" alt="image" src="https://github.com/user-attachments/assets/03c2bf73-642c-4265-b4c1-2b96d55edc9a" />
 
 ---
 
 ### Profile
 
+<img width="1117" height="1138" alt="image" src="https://github.com/user-attachments/assets/88c25f33-e7bf-4c7c-87e7-42ed88cc686a" />
 
 
 ---
