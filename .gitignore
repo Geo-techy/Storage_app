@@ -1,0 +1,23 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/uploads/
+
+# Environment
+.env
+backend/.env
+backend/.env.docker
+frontend/.env
+
+# Node
+frontend/node_modules/
+
+# Vite
+frontend/dist/
+
+# VS Code
+.vscode/
+
+# Python cache
+*.pyc
+
