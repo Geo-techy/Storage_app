@@ -73,21 +73,27 @@ storage-app/
 
 ## Screenshots
 
+### Register
+
+
+
+
+---
 ### Login
 
-> Add screenshot here
+<img width="559" height="569" alt="image" src="https://github.com/user-attachments/assets/455311d6-1726-41d9-9c86-452735c8c76c" />
+
 
 ---
 
 ### Dashboard
 
-> Add screenshot here
 
 ---
 
 ### Profile
 
-> Add screenshot here
+
 
 ---
 
@@ -96,7 +102,7 @@ storage-app/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/storage-app.git
+git clone https://github.com/Geo-techy/Storage_app.git
 
 cd storage-app
 ```
@@ -237,7 +243,7 @@ JWT_SECRET_KEY=your-secret-key
 
 **Geo Joyson**
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/Geo-techy
 
 ---
 
